@@ -1,0 +1,11 @@
+@use '../abstracts' as *;
+
+.header {
+  background-color: var(--gray-800);
+  top: 0;
+  z-index: var(--layer-5);
+
+  @media (min-width: 768px) {
+    position: sticky;
+  }
+}

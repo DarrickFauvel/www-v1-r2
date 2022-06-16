@@ -1,0 +1,15 @@
+@use '../abstracts/' as *;
+
+.footer-container {
+  padding: var(--size-4);
+}
+
+.footer-content {
+  font-weight: var(--font-weight-3);
+  color: white;
+  margin-bottom: var(--size-3);
+
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+  }
+}
