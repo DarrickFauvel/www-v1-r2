@@ -1,12 +1,62 @@
 @use '../abstracts' as *;
 
 .header {
-  background-color: var(--gray-800);
-  background-image: var(--gradient-2);
+  // background-color: var(--gray-800);
+  // background-image: var(--gradient-23);
+  background: linear-gradient(300deg, #141a63, #494949, #431175);
+  background-size: 600% 600%;
+
+  -webkit-animation: animate-gradient 30s ease infinite;
+  -moz-animation: animate-gradient 30s ease infinite;
+  animation: animate-gradient 30s ease infinite;
+
   top: 0;
   z-index: var(--layer-5);
 
   @media (min-width: 768px) {
     position: sticky;
+  }
+}
+
+// .css-selector {
+//   background: linear-gradient(270deg, #000881, #494949, #6200c1);
+//   background-size: 600% 600%;
+
+//   -webkit-animation: animate-gradient 30s ease infinite;
+//   -moz-animation: animate-gradient 30s ease infinite;
+//   animation: animate-gradient 30s ease infinite;
+// }
+
+@-webkit-keyframes animate-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes animate-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes animate-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
