@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className='container navbar-container'>
       <div className='navbar-brand'>
-        <a href='/' className='navbar-title__link'>
+        <a href='#about' className='navbar-brand__link'>
           Darrick Fauvel
         </a>
       </div>
