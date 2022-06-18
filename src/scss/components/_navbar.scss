@@ -60,9 +60,9 @@
   margin-top: var(--size-3);
   transition-property: color, background-color, border-color,
     text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
-    backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 500ms;
+  animation: var(--animation-shake-x);
+  animation-delay: 5s;
+  animation-iteration-count: 1;
 
   @media (min-width: 768px) {
     margin-top: 0;
