@@ -23,8 +23,12 @@ const Navbar = () => {
           </a> */}
       </nav>
       <a href='#contact' className='nav-contact__link'>
-        Hire Me
-        <ArrowRightIcon className='nav-arrow' />
+        <div className='nav-contact__link--text'>
+          <div>Hire Me</div>
+          <div>
+            <ArrowDownIcon className='nav-arrow' />
+          </div>
+        </div>
       </a>
     </div>
   )
