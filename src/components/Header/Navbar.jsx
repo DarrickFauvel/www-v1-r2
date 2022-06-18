@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from '@heroicons/react/solid'
+import { ArrowDownIcon } from '@heroicons/react/solid'
 
 const Navbar = () => {
   return (
