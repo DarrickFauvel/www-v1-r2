@@ -59,7 +59,7 @@
   font-size: var(--font-size-1);
   margin-top: var(--size-3);
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+  overflow: hidden;
   animation: var(--animation-shake-x);
   animation-delay: 5s;
   animation-iteration-count: 1;
