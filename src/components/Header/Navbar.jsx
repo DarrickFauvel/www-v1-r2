@@ -3,7 +3,7 @@ import { ArrowDownIcon } from '@heroicons/react/solid'
 const Navbar = () => {
   return (
     <div className='container navbar-container'>
-      <div className='navbar-title'>
+      <div className='navbar-brand'>
         <a href='/' className='navbar-title__link'>
           Darrick Fauvel
         </a>
