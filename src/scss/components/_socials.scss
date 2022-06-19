@@ -3,4 +3,16 @@
 .socials-container {
   display: flex;
   justify-content: center;
+  gap: var(--size-3);
+}
+
+.social__link {
+  display: block;
+  transition: 0.5s ease;
+}
+
+.social__link:hover,
+.social__link:focus {
+  color: white;
+  transform: rotate(-5deg) scale(1.2);
 }
