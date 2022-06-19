@@ -34,14 +34,6 @@
 .skills-head--text {
   line-height: 1.625;
   margin-inline: auto;
-
-  @media (min-width: 1024px) {
-    width: 75%;
-  }
-
-  @media (min-width: 1280px) {
-    width: 50%;
-  }
 }
 
 .skills-content {
