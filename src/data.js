@@ -1,29 +1,34 @@
 export const tabs = [
   {
+    id: 1,
     title: 'Featured',
     subtitle: 'Featured Projects',
     category: 'featured',
     description: 'Some of my favorite projects.'
   },
   {
+    id: 2,
     title: 'Components',
     subtitle: 'Page Components',
     category: 'component',
     description: 'Components for use in a web page'
   },
   {
+    id: 3,
     title: 'Sections',
     subtitle: 'Page Sections',
     category: 'section',
     description: 'Sections for use in a web page'
   },
   {
+    id: 4,
     title: 'Landings',
     subtitle: 'Landing Pages',
     category: 'landing',
     description: 'Landing pages'
   },
   {
+    id: 5,
     title: 'Apps',
     subtitle: 'Web Apps',
     category: 'app',
@@ -33,6 +38,7 @@ export const tabs = [
 
 export const projects = [
   {
+    id: 1,
     title: 'Petri Paint',
     subtitle: 'Hackathon Project',
     client: 'Hackathon',
@@ -47,6 +53,7 @@ export const projects = [
     isFeatured: true
   },
   {
+    id: 2,
     title: 'Four card feature section',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -63,6 +70,7 @@ export const projects = [
     isFeatured: true
   },
   {
+    id: 3,
     title: 'Single price grid component',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -80,6 +88,7 @@ export const projects = [
     isFeatured: false
   },
   {
+    id: 4,
     title: 'Social proof section',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -96,6 +105,7 @@ export const projects = [
     isFeatured: true
   },
   {
+    id: 5,
     title: 'Profile card component',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -112,6 +122,7 @@ export const projects = [
     isFeatured: false
   },
   {
+    id: 6,
     title: 'Stats preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -129,6 +140,7 @@ export const projects = [
     isFeatured: false
   },
   {
+    id: 7,
     title: 'Time tracking dashboard',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -145,6 +157,7 @@ export const projects = [
     isFeatured: false
   },
   {
+    id: 8,
     title: '3 column preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -162,6 +175,7 @@ export const projects = [
     isFeatured: false
   },
   {
+    id: 9,
     title: 'FAQ accordion card',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -178,6 +192,7 @@ export const projects = [
     isFeatured: false
   },
   {
+    id: 10,
     title: 'Order summary component',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -194,6 +209,7 @@ export const projects = [
     isFeatured: false
   },
   {
+    id: 11,
     title: 'NFT preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
@@ -212,6 +228,7 @@ export const projects = [
     isFeatured: false
   },
   {
+    id: 12,
     title: 'QR code component',
     subtitle: '',
     client: 'Frontend Mentor',
