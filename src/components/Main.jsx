@@ -1,5 +1,5 @@
 import About from './About'
-import Projects from './Projects'
+import Portfolio from './Portfolio'
 import Skills from './Skills'
 import Contact from './Contact'
 
@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <main className='main'>
       <About />
-      <Projects />
+      <Portfolio />
       <Skills />
       <Contact />
     </main>
