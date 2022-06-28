@@ -1,55 +1,57 @@
+export const tabs = [
+  {
+    title: 'Featured',
+    subtitle: 'Featured Projects',
+    category: 'featured',
+    description: 'Some of my favorite projects.'
+  },
+  {
+    title: 'Components',
+    subtitle: 'Page Components',
+    category: 'component',
+    description: 'Components for use in a web page'
+  },
+  {
+    title: 'Sections',
+    subtitle: 'Page Sections',
+    category: 'section',
+    description: 'Sections for use in a web page'
+  },
+  {
+    title: 'Landings',
+    subtitle: 'Landing Pages',
+    category: 'landing',
+    description: 'Landing pages'
+  },
+  {
+    title: 'Apps',
+    subtitle: 'Web Apps',
+    category: 'app',
+    description: 'Web apps'
+  }
+]
+
 export const projects = [
   {
     title: 'Petri Paint',
     subtitle: 'Hackathon Project',
+    client: 'Hackathon',
+    category: 'App',
+    stack: ['JavaScript', 'CSS', 'HTML'],
     description:
       'Create an app where the user can move the mouse across the screen and draw free-form lines.',
-    stack: 'JavaScript/CSS/HTML',
     image: './project-1.gif',
-    link: 'https://darrickfauvel.github.io/petri-paint/'
+    solutionUrl: '',
+    liveUrl: 'https://darrickfauvel.github.io/petri-paint/',
+    repoUrl: '',
+    isFeatured: true
   },
-  {
-    title: 'Time Tracking Dashboard',
-    subtitle: 'React and Sass',
-    description:
-      'Deploy a pixel-accurate, responsive time-tracking dashboard from a design file hand-off.',
-    stack: 'React/Sass/HTML',
-    image: './project-2.gif',
-    link: 'https://fem06-time-tracking-dashborad-drrck.netlify.app/'
-  },
-  {
-    title: 'FAQ Accordion Card',
-    subtitle: 'JavaScript and Sass',
-    description:
-      'Deploy a pixel-accurate, responsive FAQ accordion card from a design file hand-off.',
-    stack: 'JavaScript/Sass/HTML/Parcel',
-    image: './project-3.gif',
-    link: 'https://fem04-faq-accordion-card-drrck.netlify.app/'
-  },
-  {
-    title: 'Social Proof Section',
-    subtitle: 'Sass and Vite',
-    description:
-      'Deploy a pixel-accurate, responsive social proof section from a design file hand-off.',
-    stack: 'Sass/HTML/Vite',
-    image: './project-4.gif',
-    link: 'https://fem10-social-proof-section-drrck.netlify.app/'
-  }
-]
-
-export const femProjects = [
-  // {
-  //   title: '',
-  //   stack: 'HTML, CSS, ',
-  //   description: '',
-  //   image: '',
-  //   solutionUrl: '',
-  //   liveUrl: '',
-  //   repoUrl: ''
-  // },
   {
     title: 'Four card feature section',
-    stack: 'HTML, CSS Open Props, & Vite',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Section',
+    stack: ['HTML', 'CSS Open Props', 'Vite'],
     description:
       'Challenge my responsive layout skills by building a four card feature section as per the design specs.',
     image:
@@ -57,11 +59,15 @@ export const femProjects = [
     solutionUrl:
       'https://www.frontendmentor.io/solutions/four-card-feature-section-css-open-props-and-vite-Hy2_13j7q',
     liveUrl: 'https://fem11-four-card-feature-section-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem11-four-card-feature-section'
+    repoUrl: 'https://github.com/DarrickFauvel/fem11-four-card-feature-section',
+    isFeatured: true
   },
   {
     title: 'Single price grid component',
-    stack: 'HTML, Sass, CSS Grid, & Vite ',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Component',
+    stack: ['HTML', 'Sass', 'CSS Grid', 'Vite'],
     description:
       'Challenge my responsive layout skills by building a single price grid component as per the design specs.',
     image:
@@ -70,11 +76,15 @@ export const femProjects = [
       'https://www.frontendmentor.io/solutions/single-price-grid-component-html-sass-grid-and-vite-bPAyz8cJe',
     liveUrl: 'https://fem09-single-price-grid-component-drrck.netlify.app/',
     repoUrl:
-      'https://github.com/DarrickFauvel/fem09-single-price-grid-component'
+      'https://github.com/DarrickFauvel/fem09-single-price-grid-component',
+    isFeatured: false
   },
   {
     title: 'Social proof section',
-    stack: 'HTML, Sass, & Vite',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Section',
+    stack: ['HTML', 'Sass', 'Vite'],
     description:
       'Challenge my responsive layout skills by building a social proof section as per the design specs.',
     image:
@@ -82,11 +92,15 @@ export const femProjects = [
     solutionUrl:
       'https://www.frontendmentor.io/solutions/social-proof-section-html-css-and-vite-mZ9Yax8r5',
     liveUrl: 'https://fem10-social-proof-section-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem10-social-proof-section'
+    repoUrl: 'https://github.com/DarrickFauvel/fem10-social-proof-section',
+    isFeatured: true
   },
   {
     title: 'Profile card component',
-    stack: 'HTML, CSS, & Vite',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Component',
+    stack: ['HTML', 'CSS', 'Vite'],
     description:
       'Challenge my responsive layout skills by building a profile card component as per the design specs.',
     image:
@@ -94,11 +108,15 @@ export const femProjects = [
     solutionUrl:
       'https://www.frontendmentor.io/solutions/profile-card-component-html-css-and-vite-ax2scK1Od',
     liveUrl: 'https://fem08-profile-card-component-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem08-profile-card-component'
+    repoUrl: 'https://github.com/DarrickFauvel/fem08-profile-card-component',
+    isFeatured: false
   },
   {
     title: 'Stats preview card component',
-    stack: 'HTML, CSS, Sass, & Parcel',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Component',
+    stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
     description:
       'Challenge my responsive layout skills by building a stats preview card component as per the design specs.',
     image:
@@ -107,11 +125,15 @@ export const femProjects = [
       'https://www.frontendmentor.io/solutions/stats-preview-card-component-html-and-sass-rDQsqj-37',
     liveUrl: 'https://fem07-stats-preview-card-component-drrck.netlify.app/',
     repoUrl:
-      'https://github.com/DarrickFauvel/fem07-stats-preview-card-component'
+      'https://github.com/DarrickFauvel/fem07-stats-preview-card-component',
+    isFeatured: false
   },
   {
     title: 'Time tracking dashboard',
-    stack: 'HTML, CSS, Sass, & React',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Landing',
+    stack: ['HTML', 'CSS', 'Sass', 'React'],
     description:
       'Challenge my responsive layout and React skills by building an interactive time tracking dashboard as per the design specs. Data is dynamically displayed using React functional components.',
     image:
@@ -119,11 +141,15 @@ export const femProjects = [
     solutionUrl:
       'https://www.frontendmentor.io/solutions/time-tracking-dashboard-react-and-sass-ZXBXih2g5',
     liveUrl: 'https://fem06-time-tracking-dashborad-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem06-time-tracking-dashboard'
+    repoUrl: 'https://github.com/DarrickFauvel/fem06-time-tracking-dashboard',
+    isFeatured: false
   },
   {
     title: '3 column preview card component',
-    stack: 'HTML, CSS, Sass, & Parcel',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Component',
+    stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
     description:
       'Challenge my responsive layout skills by building a 3 column preview card component as per the design specs.',
     image:
@@ -132,11 +158,15 @@ export const femProjects = [
       'https://www.frontendmentor.io/solutions/3-column-preview-card-component-htmlsassparcel-xwNRbfDmU',
     liveUrl: 'https://fem05-3-column-preview-card-component-drrck.netlify.app/',
     repoUrl:
-      'https://github.com/DarrickFauvel/fem05-3-column-preview-card-component'
+      'https://github.com/DarrickFauvel/fem05-3-column-preview-card-component',
+    isFeatured: false
   },
   {
     title: 'FAQ accordion card',
-    stack: 'HTML, CSS, JS, & Parcel',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Component',
+    stack: ['HTML', 'CSS', 'JavaScript', 'Parcel'],
     description:
       'Chalenge my responsive layout and JavaScript skills by building an interactive FAQ accordion card as per the design specs.',
     image:
@@ -144,11 +174,15 @@ export const femProjects = [
     solutionUrl:
       'https://www.frontendmentor.io/solutions/faq-accordion-card-htmlcssjs-rzpYTV0Ig',
     liveUrl: 'https://fem04-faq-accordion-card-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem04-faq-accordion-card'
+    repoUrl: 'https://github.com/DarrickFauvel/fem04-faq-accordion-card',
+    isFeatured: false
   },
   {
     title: 'Order summary component',
-    stack: 'HTML, CSS, & Parcel',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Component',
+    stack: ['HTML', 'CSS', 'Parcel'],
     description:
       'Challenge my responsive layout skills by building an order summary component as per the design specs.',
     image:
@@ -156,11 +190,15 @@ export const femProjects = [
     solutionUrl:
       'https://www.frontendmentor.io/solutions/order-summary-component-html-and-css-tcdb19Xqt',
     liveUrl: 'https://fem03-order-summary-component-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem03-order-summary-component'
+    repoUrl: 'https://github.com/DarrickFauvel/fem03-order-summary-component',
+    isFeatured: false
   },
   {
     title: 'NFT preview card component',
-    stack: 'HTML & CSS',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Component',
+    stack: ['HTML', 'CSS'],
     description:
       'Challenge my layout skills by building an NFT preview card component as per the design specs,',
     image:
@@ -169,11 +207,16 @@ export const femProjects = [
       'https://www.frontendmentor.io/solutions/nft-preview-card-component-html-and-css-eRkDppP-t',
     liveUrl:
       'https://darrickfauvel.github.io/fem02-nft-preview-card-component/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem02-nft-preview-card-component'
+    repoUrl:
+      'https://github.com/DarrickFauvel/fem02-nft-preview-card-component',
+    isFeatured: false
   },
   {
     title: 'QR code component',
-    stack: 'HTML & CSS',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: 'Component',
+    stack: ['HTML', 'CSS'],
     description:
       'Challenge my layout skills by building a QR code component as per the design specs.',
     image:
@@ -181,7 +224,8 @@ export const femProjects = [
     solutionUrl:
       'https://www.frontendmentor.io/solutions/qr-code-component-html-css-and-figma-dkiZ-xoL4',
     liveUrl: 'https://fem01-qr-code-component-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem01-qr-code-component'
+    repoUrl: 'https://github.com/DarrickFauvel/fem01-qr-code-component',
+    isFeatured: false
   }
 ]
 
