@@ -34,7 +34,7 @@ const Portfolio = () => {
     <section id='portfolio' className='projects'>
       <div className='container projects-container'>
         <div className='projects-head'>
-          <CodeIcon className='projects-head--icon' />
+          <CodeIcon className='section-head--icon' />
           <h1 className='projects-head--title'>Projects I've Built</h1>
           {/* <p className='projects-head--text'>Some of my favorite projects.</p> */}
         </div>
