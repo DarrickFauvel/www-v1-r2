@@ -1,6 +1,6 @@
 import TechStack from './TechStack'
   return (
-    <div className='modal' tabIndex='-1'>
+    <div className='modal' tabIndex='-1' onClick={closeModal}>
       <div className='modal-dialog'>
         <div className='modal-content'>
           <div className='modal-header'>
