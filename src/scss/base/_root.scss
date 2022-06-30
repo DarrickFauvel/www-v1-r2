@@ -2,8 +2,12 @@
 @import 'open-props/normalize';
 
 :root {
-  --gray-400: rgb(156, 163, 175);
-  --gray-900: rgb(17 24 39);
+  --gray-400: hsl(218, 11%, 65%);
+  --gray-900: hsl(221, 39%, 11%);
+  --purple-dark: hsl(270, 75%, 26%);
+  --blue-dark: hsl(235, 66%, 23%);
+  --mediumseagreen: hsl(145, 45, 50);
+  // --accent-green: var(--mediumseagreen);
 
   scroll-behavior: smooth;
   color: var(--gray-400);
