@@ -6,7 +6,7 @@ const Skills = () => {
     <section id='skills'>
       <div className='container skills-container'>
         <div className='skills-head'>
-          <ChipIcon className='skills-head--icon' />
+          <ChipIcon className='section-head--icon' />
           <h1 className='skills-head--title'>Skills &amp; Technologies</h1>
           <p className='skills-head--text'>
             Just some of the things in my technical toolkit.
