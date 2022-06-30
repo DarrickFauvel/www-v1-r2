@@ -1,7 +1,7 @@
 import TechStack from './TechStack'
   return (
     <div className='modal' tabIndex='-1' onClick={closeModal}>
-      <div className='modal-dialog'>
+      <div className='modal-dialog' onClick={(e) => e.stopPropagation()}>
         <div className='modal-content'>
           <div className='modal-header'>
             <h5 className='modal-title'>Modal title</h5>
