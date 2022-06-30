@@ -8,9 +8,36 @@ import TechStack from './TechStack'
             <div className='modal-image'>
               <img src={project.image} alt='' />
           </div>
+          <div className='modal-scroll-area'>
           <div className='modal-body'>
-            <p>Modal body text goes here.</p>
+              <p>{project.description}</p>
+            </div>
+            <TechStack project={project} />
+            <ul className='modal-links'>
+              <li className='links-item'>
+                <a
+                  href={project.liveUrl}
+                  target='_blank'
+                  className='links-link'
+                  title='Go to live site on Netlify'>
+                  <img src='./netlify-logo-cropped.png' alt='' />
+                  <span>Live Site</span>
+                </a>
+              </li>
+              <li className='links-item'>
+                <a
+                  href={project.repoUrl}
+                  className='links-link'
+                  target='_blank'>
+                  <i className='fa-brands fa-github fa-2xl'></i>
+                  <span>GitHub</span>
+                </a>
+              </li>
+            </ul>
+            {/* END modal-links */}
           </div>
+          {/* END modal-scroll-area */}
+
           <div className='modal-footer'>
             <button
               type='button'
