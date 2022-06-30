@@ -5,7 +5,6 @@ import Modal from './Modal'
 const Projects = ({ projects, activeTab, tabs }) => {
   const [showModal, setShowModal] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
-  const [showModal, setShowModal] = useState(false)
 
   const openModal = (project) => {
     setSelectedProject(project)
