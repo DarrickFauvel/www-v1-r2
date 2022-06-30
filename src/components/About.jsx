@@ -17,7 +17,7 @@ const About = () => {
             <a href='#contact' className='hero-button hero-button--contact'>
               Work With Me
             </a>
-            <a href='#projects' className='hero-button hero-button--projects'>
+            <a href='#portfolio' className='hero-button hero-button--projects'>
               See Some of My Work
             </a>
           </div>
