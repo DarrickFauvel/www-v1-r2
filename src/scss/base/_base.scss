@@ -38,3 +38,11 @@ a:visited {
   width: 1px;
   white-space: nowrap;
 }
+
+.section-head--icon {
+  display: inline-block;
+  margin-inline: auto;
+  width: 2.5rem;
+  margin-bottom: var(--size-3);
+  color: var(--grape-9);
+}
