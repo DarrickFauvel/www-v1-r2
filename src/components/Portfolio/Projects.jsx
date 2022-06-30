@@ -9,7 +9,6 @@ const Projects = ({ projects, activeTab, tabs }) => {
   const openModal = (project) => {
     setSelectedProject(project)
     setShowModal(true)
-    console.log(selectedProject, showModal)
   }
 
   const closeModal = () => {
