@@ -5,6 +5,8 @@ import TechStack from './TechStack'
         <div className='modal-content'>
           <div className='modal-header'>
             <h5 className='modal-title'>{project.title}</h5>
+            <div className='modal-image'>
+              <img src={project.image} alt='' />
           </div>
           <div className='modal-body'>
             <p>Modal body text goes here.</p>
