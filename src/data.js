@@ -43,13 +43,13 @@ export const projects = [
     subtitle: 'Hackathon Project',
     client: 'Hackathon',
     category: 'App',
-    stack: ['JavaScript', 'CSS', 'HTML'],
+    stack: ['JavaScript', 'CSS', 'HTML', 'Canvas'],
     description:
-      'Create an app where the user can move the mouse across the screen and draw free-form lines.',
+      'A Mintbean hackathon challenge with the goal of creating an app where the user can move the mouse across the screen and draw free-form lines. ',
     image: './project-1.gif',
     solutionUrl: '',
     liveUrl: 'https://darrickfauvel.github.io/petri-paint/',
-    repoUrl: '',
+    repoUrl: 'https://github.com/DarrickFauvel/petri-paint',
     isFeatured: true
   },
   {
