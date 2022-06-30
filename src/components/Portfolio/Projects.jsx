@@ -15,6 +15,11 @@ const Projects = ({ projects, activeTab, tabs }) => {
     setShowModal(false)
   }
 
+  useEffect(() => {
+    showModal && (document.body.style.overflow = 'hidden')
+    !showModal && (document.body.style.overflow = 'unset')
+  }, [showModal])
+
   const cardsTitle = tabs.find((tab) => {
     return tab.title.toLowerCase() === activeTab.toLowerCase()
   })
