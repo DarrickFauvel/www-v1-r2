@@ -1,4 +1,6 @@
 import TechStack from './TechStack'
+
+const Modal = ({ project, closeModal }) => {
   return (
     <div className='modal' tabIndex='-1' onClick={closeModal}>
       <div className='modal-dialog' onClick={(e) => e.stopPropagation()}>
@@ -7,12 +9,12 @@ import TechStack from './TechStack'
             <h5 className='modal-title'>{project.title}</h5>
             <div className='modal-image'>
               <img src={project.image} alt='' />
-          </div>
+            </div>
           </div>
           {/* END modal-header */}
 
           <div className='modal-scroll-area'>
-          <div className='modal-body'>
+            <div className='modal-body'>
               <p>{project.description}</p>
             </div>
             <TechStack project={project} />
