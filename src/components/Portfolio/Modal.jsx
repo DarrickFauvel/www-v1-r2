@@ -8,6 +8,9 @@ import TechStack from './TechStack'
             <div className='modal-image'>
               <img src={project.image} alt='' />
           </div>
+          </div>
+          {/* END modal-header */}
+
           <div className='modal-scroll-area'>
           <div className='modal-body'>
               <p>{project.description}</p>
@@ -47,9 +50,13 @@ import TechStack from './TechStack'
               Close
             </button>
           </div>
+          {/* END modal-footer */}
         </div>
+        {/* END modal-content */}
       </div>
+      {/* END modal-dialog */}
     </div>
+    // END modal
   )
 }
 
