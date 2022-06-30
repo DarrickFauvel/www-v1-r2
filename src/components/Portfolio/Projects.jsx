@@ -12,9 +12,7 @@ const Projects = ({ projects, activeTab, tabs }) => {
   }
 
   const closeModal = () => {
-    setSelectedProject(null)
     setShowModal(false)
-    console.log(selectedProject, showModal)
   }
 
   const cardsTitle = tabs.find((tab) => {
