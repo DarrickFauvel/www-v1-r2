@@ -4,12 +4,7 @@ import TechStack from './TechStack'
       <div className='modal-dialog' onClick={(e) => e.stopPropagation()}>
         <div className='modal-content'>
           <div className='modal-header'>
-            <h5 className='modal-title'>Modal title</h5>
-            <button
-              type='button'
-              className='btn-close'
-              data-bs-dismiss='modal'
-              aria-label='Close'></button>
+            <h5 className='modal-title'>{project.title}</h5>
           </div>
           <div className='modal-body'>
             <p>Modal body text goes here.</p>
