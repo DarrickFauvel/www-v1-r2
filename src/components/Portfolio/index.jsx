@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { CodeIcon } from '@heroicons/react/solid'
 import { projects as data, tabs } from '../../data'
+import Tabs from './Tabs'
 import Projects from './Projects'
 
 const Portfolio = () => {
@@ -39,19 +40,11 @@ const Portfolio = () => {
           {/* <p className='projects-head--text'>Some of my favorite projects.</p> */}
         </div>
 
-        <div className='tabs'>
-          {tabs.map((tab) => {
-            return (
-              <button
-                className={tab.title === activeTab ? 'tab active' : 'tab'}
-                data-category={tab.category}
-                onClick={handleTabClick}
-                key={tab.category}>
-                {tab.title}
-              </button>
-            )
-          })}
-        </div>
+        <Tabs
+          tabs={tabs}
+          activeTab={activeTab}
+          handleTabClick={handleTabClick}
+        />
 
         <div className='tab-content tab-content--sections'>
           <Projects
