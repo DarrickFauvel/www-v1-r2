@@ -1,4 +1,4 @@
-const Modal = ({ project, showModal, closeModal }) => {
+import TechStack from './TechStack'
   return (
     <div className='modal' tabIndex='-1'>
       <div className='modal-dialog'>
