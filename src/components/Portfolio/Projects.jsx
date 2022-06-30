@@ -28,8 +28,10 @@ const Projects = ({ projects, activeTab, tabs }) => {
     <>
       <h3 className='tab-content--title'>{cardsTitle.subtitle}</h3>
       <div className='cards'>
-        {projects.map((project, index) => {
-          return <Card project={project} key={index} openModal={openModal} />
+        {projects.map((project) => {
+          return (
+            <Card project={project} key={project.id} openModal={openModal} />
+          )
         })}
       </div>
       {/* END cards */}
