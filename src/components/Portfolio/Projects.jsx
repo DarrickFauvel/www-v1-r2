@@ -3,6 +3,7 @@ import Card from './Card'
 import Modal from './Modal'
 
 const Projects = ({ projects, activeTab, tabs }) => {
+  const [showModal, setShowModal] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
   const [showModal, setShowModal] = useState(false)
 
