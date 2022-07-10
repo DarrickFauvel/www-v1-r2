@@ -87,9 +87,6 @@
   margin-top: var(--size-3);
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
-  animation: var(--animation-shake-x);
-  animation-delay: 5s;
-  animation-iteration-count: 1;
 
   @media (min-width: 768px) {
     margin-top: 0;
