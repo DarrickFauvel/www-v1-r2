@@ -40,12 +40,20 @@ export const projects = [
   {
     id: 1,
     title: 'Petri Paint',
+    titleLong: 'Petri Paint app',
     subtitle: 'Hackathon Project',
-    client: 'Hackathon',
+    client: 'Mintbean Hackathon',
     category: 'App',
-    stack: ['JavaScript', 'CSS', 'HTML', 'Canvas'],
-    description:
-      'A Mintbean hackathon challenge with the goal of creating an app where the user can move the mouse across the screen and draw free-form lines. ',
+    stack: ['HTML', 'CSS', 'JavaScript', 'Canvas'],
+    description: {
+      goal: 'Create an app where the user can move the mouse across the screen and draw free-form lines.',
+      inspiration:
+        'I have an interest in science, so I wondered if I could create a circular canvas to represent a petri dish.',
+      challenge: 'I had never used the canvas element before.',
+      solution:
+        'I consulted the MDN docs to learn more about the canvas element.',
+      future: 'Make the app mobile friendly.'
+    },
     image: './project-1.gif',
     solutionUrl: '',
     liveUrl: 'https://darrickfauvel.github.io/petri-paint/',
@@ -54,13 +62,21 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Four card feature section',
+    title: 'Four card feature',
+    titleLong: 'Four card feature section',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Section',
     stack: ['HTML', 'CSS Open Props', 'Vite'],
-    description:
-      'Challenge my responsive layout skills by building a four card feature section as per the design specs.',
+    description: {
+      goal: 'Use my responsive layout skills to accurately build a four card feature section as per the design specs.',
+      inspiration:
+        'I wanted to add an interesting mouse hover effects to the cards for fun and also use CSS Open Props.',
+      challenge: '',
+      solution: '',
+      future:
+        'Possibly use apply a media query for a two-column view on mid-size screens.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/zmjrb4iruu8wzaw3cogv.jpg',
     solutionUrl:
@@ -71,13 +87,19 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Single price grid component',
+    title: 'Single price grid',
+    titleLong: 'Single price grid component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Component',
     stack: ['HTML', 'Sass', 'CSS Grid', 'Vite'],
-    description:
-      'Challenge my responsive layout skills by building a single price grid component as per the design specs.',
+    description: {
+      goal: 'Use my responsive layout skills to accurately build a single price grid component as per the design specs.',
+      inspiration: '',
+      challenge: '',
+      solution: 'Structured this component using CSS grid.',
+      future: ''
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/sxlu3lktae5wsgt9sv4g.jpg',
     solutionUrl:
@@ -89,13 +111,19 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Social proof section',
+    title: 'Social proof',
+    titleLong: 'Social proof section',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Section',
     stack: ['HTML', 'Sass', 'Vite'],
-    description:
-      'Challenge my responsive layout skills by building a social proof section as per the design specs.',
+    description: {
+      goal: 'Use my responsive layout skills to accurately build a social proof section as per the design specs.',
+      inspiration: '',
+      challenge: 'Responsively display on all screen sizes.',
+      solution: 'Visually test and apply media queries as needed.',
+      future: 'Possibly use some subtle animation effects as the section loads.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/i9xoulbwta93iu52gi3v.jpg',
     solutionUrl:
@@ -106,13 +134,20 @@ export const projects = [
   },
   {
     id: 5,
-    title: 'Profile card component',
+    title: 'Profile card',
+    titleLong: 'Profile card component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Component',
     stack: ['HTML', 'CSS', 'Vite'],
-    description:
-      'Challenge my responsive layout skills by building a profile card component as per the design specs.',
+    description: {
+      goal: 'Use my responsive layout skills to accurately build a profile card component as per the design specs.',
+      inspiration: '',
+      challenge: 'The background images were tricky.',
+      solution:
+        'With a little help from the community, I got the images placed exactly the way I wanted.',
+      future: 'Possible animate the card.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/krvnlihf4irij953yx9g.jpg',
     solutionUrl:
@@ -123,13 +158,20 @@ export const projects = [
   },
   {
     id: 6,
-    title: 'Stats preview card component',
+    title: 'Stats preview card',
+    titleLong: 'Stats preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Component',
     stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
-    description:
-      'Challenge my responsive layout skills by building a stats preview card component as per the design specs.',
+    description: {
+      goal: 'Use my responsive layout skills to accurately build a stats preview card component as per the design specs.',
+      inspiration: '',
+      challenge: 'The supplied image was only grayscale.',
+      solution:
+        "I applied the CSS property mix-blend-mode to get the exact results per the design. NOTE: My personal method has been cited in the FEM community many times, as many others' solutions do not match the design.",
+      future: 'Possibly use some subtle animation effects.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/foygh516ohxsitr4z2ll.jpg',
     solutionUrl:
@@ -142,12 +184,18 @@ export const projects = [
   {
     id: 7,
     title: 'Time tracking dashboard',
+    titleLong: 'Time tracking dashboard',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Landing',
     stack: ['HTML', 'CSS', 'Sass', 'React'],
-    description:
-      'Challenge my responsive layout and React skills by building an interactive time tracking dashboard as per the design specs. Data is dynamically displayed using React functional components.',
+    description: {
+      goal: 'Use my responsive layout and React skills to accurately build an interactive time tracking dashboard as per the design specs. Data is dynamically displayed using React functional components.',
+      inspiration: '',
+      challenge: '',
+      solution: '',
+      future: 'Possibly make responsive with two and three column layout.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/ykxywfx6occh8cbmlghl.jpg',
     solutionUrl:
@@ -158,13 +206,19 @@ export const projects = [
   },
   {
     id: 8,
-    title: '3 column preview card component',
+    title: '3 column preview card',
+    titleLong: '3 column preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Component',
     stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
-    description:
-      'Challenge my responsive layout skills by building a 3 column preview card component as per the design specs.',
+    description: {
+      goal: 'Use my responsive layout skills to accurately build a 3 column preview card component as per the design specs.',
+      inspiration: '',
+      challenge: '',
+      solution: '',
+      future: 'Possibly use some subtle animation effects.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/zfcpxhf3ghumw5xwk8ov.jpg',
     solutionUrl:
@@ -177,12 +231,18 @@ export const projects = [
   {
     id: 9,
     title: 'FAQ accordion card',
+    titleLong: 'FAQ accordion card component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Component',
     stack: ['HTML', 'CSS', 'JavaScript', 'Parcel'],
-    description:
-      'Chalenge my responsive layout and JavaScript skills by building an interactive FAQ accordion card as per the design specs.',
+    description: {
+      goal: 'Use my responsive layout and JavaScript skills to accurately build an interactive FAQ accordion card as per the design specs.',
+      inspiration: '',
+      challenge: 'Responsively align and layer multiple images.',
+      solution: 'It was tricky, but I got the results per the design.',
+      future: 'Possibly use some animation effects.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/xvugv8kclktcrspoxjga.jpg',
     solutionUrl:
@@ -193,13 +253,19 @@ export const projects = [
   },
   {
     id: 10,
-    title: 'Order summary component',
+    title: 'Order summary',
+    titleLong: 'Order summary component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Component',
     stack: ['HTML', 'CSS', 'Parcel'],
-    description:
-      'Challenge my responsive layout skills by building an order summary component as per the design specs.',
+    description: {
+      goal: 'Use my responsive layout skills to accurately build an  order summary component as per the design specs.',
+      inspiration: '',
+      challenge: '',
+      solution: '',
+      future: 'Possibly use some animation effects.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/r4uw3xedzy1j6dn95dhe.jpg',
     solutionUrl:
@@ -210,13 +276,19 @@ export const projects = [
   },
   {
     id: 11,
-    title: 'NFT preview card component',
+    title: 'NFT preview card',
+    titleLong: 'NFT preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Component',
     stack: ['HTML', 'CSS'],
-    description:
-      'Challenge my layout skills by building an NFT preview card component as per the design specs,',
+    description: {
+      goal: 'Use my layout skills to accurately build an NFT preview card component as per the design specs.',
+      inspiration: '',
+      challenge: '',
+      solution: '',
+      future: 'Possibly use some animation effects.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/f3bejlae1p7rop59ewr0.jpg',
     solutionUrl:
@@ -229,13 +301,19 @@ export const projects = [
   },
   {
     id: 12,
-    title: 'QR code component',
+    title: 'QR code',
+    titleLong: 'QR code component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: 'Component',
     stack: ['HTML', 'CSS'],
-    description:
-      'Challenge my layout skills by building a QR code component as per the design specs.',
+    description: {
+      goal: 'Use my layout skills to accurately build a QR code component as per the design specs.',
+      inspiration: '',
+      challenge: '',
+      solution: '',
+      future: 'Possibly use some animation effects.'
+    },
     image:
       'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/audiapygpyulsggojfwv.jpg',
     solutionUrl:
