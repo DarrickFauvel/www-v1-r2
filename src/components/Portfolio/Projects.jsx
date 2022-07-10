@@ -1,24 +1,8 @@
 import { useState, useEffect } from 'react'
-import Card from './Card'
-import Modal from './Modal'
+import Card from './CardSmall'
 
 const Projects = ({ projects, activeTab, tabs }) => {
-  const [showModal, setShowModal] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
-
-  const openModal = (project) => {
-    setSelectedProject(project)
-    setShowModal(true)
-  }
-
-  const closeModal = () => {
-    setShowModal(false)
-  }
-
-  useEffect(() => {
-    showModal && (document.body.style.overflow = 'hidden')
-    !showModal && (document.body.style.overflow = 'unset')
-  }, [showModal])
 
   const cardsTitle = tabs.find((tab) => {
     return tab.title.toLowerCase() === activeTab.toLowerCase()
@@ -29,13 +13,10 @@ const Projects = ({ projects, activeTab, tabs }) => {
       <h3 className='tab-content--title'>{cardsTitle.subtitle}</h3>
       <div className='cards'>
         {projects.map((project) => {
-          return (
-            <Card project={project} key={project.id} openModal={openModal} />
-          )
+          return <Card project={project} key={project.id} />
         })}
       </div>
       {/* END cards */}
-      {showModal && <Modal project={selectedProject} closeModal={closeModal} />}
     </>
   )
 }
