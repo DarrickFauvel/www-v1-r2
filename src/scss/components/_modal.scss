@@ -127,6 +127,13 @@
   }
 }
 
+.modal-details {
+  background-color: var(--gray-8);
+  border-radius: var(--radius-2);
+  padding: var(--size-3);
+  padding-bottom: var(--size-1);
+}
+
 .btn {
   background-color: var(--gray-8);
   color: var(--gray-6);
