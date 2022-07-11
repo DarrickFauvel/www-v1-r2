@@ -43,6 +43,25 @@ const Modal = ({ children, project, isModalOpen, closeModal }) => {
             })}
           </p>
 
+          <ul className='modal-links'>
+            <li>
+              <a className='links-link' href={project.liveUrl} target='_blank'>
+                <img src='/netlify-logo-cropped.png' alt='' />
+                <span>Demo</span>
+              </a>
+            </li>
+            <li>
+              <a className='links-link' href={project.repoUrl} target='_blank'>
+                <img
+                  className='github-logo'
+                  src='/github-icon-logo-png-transparent.png'
+                  alt=''
+                />
+                <span>Code</span>
+              </a>
+            </li>
+          </ul>
+
           <p>
             <span>Client</span>
             {project.client}
