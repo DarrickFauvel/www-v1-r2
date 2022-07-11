@@ -66,6 +66,8 @@
 }
 
 .modal-body {
+  display: flex;
+  flex-direction: column;
   max-height: 200px;
   overflow-y: auto;
   padding-block: var(--size-5);
@@ -83,18 +85,13 @@
   }
 }
 
-.modal .tech-stack {
-  max-width: 100%;
-}
-
-.modal .stack-item {
-  display: inline-block;
-  background-color: var(--gray-6);
-  color: var(--gray-9);
-  padding-inline: var(--size-3);
-  border-radius: var(--radius-3);
-  font-size: var(--font-size-0);
-  font-weight: var(--font-weight-6);
+p.modal-stack {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  margin-top: -15px;
+  font-size: 0.8rem;
   font-family: var(--font-mono);
 }
 
