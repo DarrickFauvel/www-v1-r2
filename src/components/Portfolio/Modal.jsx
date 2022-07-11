@@ -62,57 +62,40 @@ const Modal = ({ children, project, isModalOpen, closeModal }) => {
             </li>
           </ul>
 
-          <p>
-            <span>Client</span>
-            {project.client}
-          </p>
-          <p>
-            <span>Goal</span>
-            {project.description.goal}
-          </p>
-          {project.description.inspiration && (
+          <div className='modal-details'>
             <p>
-              <span>Inspiration</span>
-              {project.description.inspiration}
+              <span>Client</span>
+              {project.client}
             </p>
-          )}
-          {project.description.challenge && (
             <p>
-              <span>Challenge</span>
-              {project.description.challenge}
+              <span>Goal</span>
+              {project.description.goal}
             </p>
-          )}
-          {project.description.solution && (
-            <p>
-              <span>Solution</span>
-              {project.description.solution}
-            </p>
-          )}
-          {project.description.future && (
-            <p>
-              <span>Future Feature</span>
-              {project.description.future}
-            </p>
-          )}
-          <TechStack project={project} />
-          <ul className='modal-links'>
-            <li>
-              <a className='links-link' href={project.liveUrl} target='_blank'>
-                <img src='/netlify-logo-cropped.png' alt='' />
-                <span>Demo</span>
-              </a>
-            </li>
-            <li>
-              <a className='links-link' href={project.repoUrl} target='_blank'>
-                <img
-                  className='github-logo'
-                  src='/github-icon-logo-png-transparent.png'
-                  alt=''
-                />
-                <span>Code</span>
-              </a>
-            </li>
-          </ul>
+            {project.description.inspiration && (
+              <p>
+                <span>Inspiration</span>
+                {project.description.inspiration}
+              </p>
+            )}
+            {project.description.challenge && (
+              <p>
+                <span>Challenge</span>
+                {project.description.challenge}
+              </p>
+            )}
+            {project.description.solution && (
+              <p>
+                <span>Solution</span>
+                {project.description.solution}
+              </p>
+            )}
+            {project.description.future && (
+              <p>
+                <span>Future Feature</span>
+                {project.description.future}
+              </p>
+            )}
+          </div>
         </div>
         {/* END modal-body */}
 
