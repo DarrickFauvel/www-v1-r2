@@ -36,6 +36,13 @@ const Modal = ({ children, project, isModalOpen, closeModal }) => {
           <img src={project.image} alt='' />
         </div>
         <div className='modal-body'>
+          <p className='modal-stack'>
+            {project.stack.map((item) => {
+              const lastItem = project.stack[project.stack.length - 1]
+              return item !== lastItem ? `${item} · ` : item
+            })}
+          </p>
+
           <p>
             <span>Client</span>
             {project.client}
