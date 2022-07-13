@@ -29,10 +29,17 @@ export const tabs = [
   },
   {
     id: 5,
-    title: 'Apps',
-    subtitle: 'Web Apps',
-    category: 'app',
-    description: 'Web apps'
+    title: 'JavaScript',
+    subtitle: 'JavaScript Apps',
+    category: 'javascript',
+    description: 'JavaScript app'
+  },
+  {
+    id: 6,
+    title: 'React',
+    subtitle: 'React Apps',
+    category: 'react',
+    description: 'React apps'
   }
 ]
 
