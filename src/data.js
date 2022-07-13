@@ -328,6 +328,54 @@ export const projects = [
     liveUrl: 'https://fem01-qr-code-component-drrck.netlify.app/',
     repoUrl: 'https://github.com/DarrickFauvel/fem01-qr-code-component',
     isFeatured: false
+  },
+  {
+    id: 13,
+    title: 'Color Scheme Generator',
+    titleLong: 'Color Scheme Generator',
+    subtitle: '',
+    client: 'Scrimba',
+    category: ['app', 'javascript'],
+    stack: ['HTML', 'CSS', 'JavaScript', 'API', 'Vite'],
+    description: {
+      goal: 'Use my JavaScript skills to accurately build a color scheme generator app as per the design specs.',
+      inspiration: '',
+      challenge:
+        'The design required the selected color code be copied to the clipboard.',
+      solution:
+        'A little MDN research about navigator.clipboard.writeText() provided the solution.',
+      future: 'Possibly use some animation effects.'
+    },
+    image:
+      'https://raw.githubusercontent.com/DarrickFauvel/scrim03-color-scheme-generator-js/3489319fbd06fa39c87c4b0b2a42ffbeed59f281/screenshot.png',
+    solutionUrl: '',
+    liveUrl: 'https://scrimba03-color-scheme-generator-js-drrck.netlify.app/',
+    repoUrl:
+      'https://github.com/DarrickFauvel/scrim03-color-scheme-generator-js',
+    isFeatured: false
+  },
+  {
+    id: 14,
+    title: 'Random Password Generator',
+    titleLong: 'Random Password Generator',
+    subtitle: '',
+    client: 'Scrimba',
+    category: ['app', 'javascript'],
+    stack: ['HTML', 'Sass', 'JavaScript', 'Vite'],
+    description: {
+      goal: 'Use my JavaScript skills to accurately build a password generator app as per the design specs.',
+      inspiration: '',
+      challenge: '',
+      solution: '',
+      future: 'Add a click-to-copy-password feature.'
+    },
+    image:
+      'https://raw.githubusercontent.com/DarrickFauvel/scrim02-random-password-generator-js/main/screenshot.png',
+    solutionUrl: '',
+    liveUrl: 'https://scrimba02-password-generator-js-drrck.netlify.app/',
+    repoUrl:
+      'https://github.com/DarrickFauvel/scrim02-random-password-generator-js',
+    isFeatured: false
   }
 ]
 
