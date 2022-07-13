@@ -90,7 +90,7 @@ export const projects = [
       'https://www.frontendmentor.io/solutions/four-card-feature-section-css-open-props-and-vite-Hy2_13j7q',
     liveUrl: 'https://fem11-four-card-feature-section-drrck.netlify.app/',
     repoUrl: 'https://github.com/DarrickFauvel/fem11-four-card-feature-section',
-    isFeatured: true
+    isFeatured: false
   },
   {
     id: 3,
@@ -137,7 +137,7 @@ export const projects = [
       'https://www.frontendmentor.io/solutions/social-proof-section-html-css-and-vite-mZ9Yax8r5',
     liveUrl: 'https://fem10-social-proof-section-drrck.netlify.app/',
     repoUrl: 'https://github.com/DarrickFauvel/fem10-social-proof-section',
-    isFeatured: true
+    isFeatured: false
   },
   {
     id: 5,
@@ -209,7 +209,7 @@ export const projects = [
       'https://www.frontendmentor.io/solutions/time-tracking-dashboard-react-and-sass-ZXBXih2g5',
     liveUrl: 'https://fem06-time-tracking-dashborad-drrck.netlify.app/',
     repoUrl: 'https://github.com/DarrickFauvel/fem06-time-tracking-dashboard',
-    isFeatured: false
+    isFeatured: true
   },
   {
     id: 8,
@@ -256,7 +256,7 @@ export const projects = [
       'https://www.frontendmentor.io/solutions/faq-accordion-card-htmlcssjs-rzpYTV0Ig',
     liveUrl: 'https://fem04-faq-accordion-card-drrck.netlify.app/',
     repoUrl: 'https://github.com/DarrickFauvel/fem04-faq-accordion-card',
-    isFeatured: false
+    isFeatured: true
   },
   {
     id: 10,
