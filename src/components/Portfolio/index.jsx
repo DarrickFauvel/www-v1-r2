@@ -14,7 +14,7 @@ const Portfolio = () => {
       if (category === 'featured') {
         return project.isFeatured
       } else {
-        return project.category.toLowerCase() === category.toLowerCase()
+        return project.category.includes(category)
       }
     })
     setFilteredProjects(results)
