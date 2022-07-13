@@ -5,7 +5,7 @@ const Tabs = ({ tabs, activeTab, handleTabClick }) => {
         className={tab.title === activeTab ? 'tab active' : 'tab'}
         data-category={tab.category}
         onClick={handleTabClick}
-        key={tab.category}>
+        key={tab.id}>
         {tab.title}
       </button>
     )
