@@ -37,7 +37,7 @@ const Portfolio = () => {
         <div className='projects-head'>
           <CodeIcon className='section-head--icon' />
           <h1 className='projects-head--title'>Projects I've Built</h1>
-          {/* <p className='projects-head--text'>Some of my favorite projects.</p> */}
+          <p className='projects-head--text'>Some of my favorite projects.</p>
         </div>
 
         <Tabs
