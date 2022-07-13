@@ -50,7 +50,7 @@ export const projects = [
     titleLong: 'Petri Paint app',
     subtitle: 'Hackathon Project',
     client: 'Mintbean Hackathon',
-    category: 'App',
+    category: ['javascript'],
     stack: ['HTML', 'CSS', 'JavaScript', 'Canvas'],
     description: {
       goal: 'Create an app where the user can move the mouse across the screen and draw free-form lines.',
@@ -73,7 +73,7 @@ export const projects = [
     titleLong: 'Four card feature section',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Section',
+    category: ['section'],
     stack: ['HTML', 'CSS Open Props', 'Vite'],
     description: {
       goal: 'Use my responsive layout skills to accurately build a four card feature section as per the design specs.',
@@ -98,7 +98,7 @@ export const projects = [
     titleLong: 'Single price grid component',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Component',
+    category: ['component'],
     stack: ['HTML', 'Sass', 'CSS Grid', 'Vite'],
     description: {
       goal: 'Use my responsive layout skills to accurately build a single price grid component as per the design specs.',
@@ -122,7 +122,7 @@ export const projects = [
     titleLong: 'Social proof section',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Section',
+    category: ['section'],
     stack: ['HTML', 'Sass', 'Vite'],
     description: {
       goal: 'Use my responsive layout skills to accurately build a social proof section as per the design specs.',
@@ -145,7 +145,7 @@ export const projects = [
     titleLong: 'Profile card component',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Component',
+    category: ['component'],
     stack: ['HTML', 'CSS', 'Vite'],
     description: {
       goal: 'Use my responsive layout skills to accurately build a profile card component as per the design specs.',
@@ -169,7 +169,7 @@ export const projects = [
     titleLong: 'Stats preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Component',
+    category: ['component'],
     stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
     description: {
       goal: 'Use my responsive layout skills to accurately build a stats preview card component as per the design specs.',
@@ -194,7 +194,7 @@ export const projects = [
     titleLong: 'Time tracking dashboard',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Landing',
+    category: ['landing', 'react'],
     stack: ['HTML', 'CSS', 'Sass', 'React'],
     description: {
       goal: 'Use my responsive layout and React skills to accurately build an interactive time tracking dashboard as per the design specs. Data is dynamically displayed using React functional components.',
@@ -217,7 +217,7 @@ export const projects = [
     titleLong: '3 column preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Component',
+    category: ['component'],
     stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
     description: {
       goal: 'Use my responsive layout skills to accurately build a 3 column preview card component as per the design specs.',
@@ -241,7 +241,7 @@ export const projects = [
     titleLong: 'FAQ accordion card component',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Component',
+    category: ['component', 'javascript'],
     stack: ['HTML', 'CSS', 'JavaScript', 'Parcel'],
     description: {
       goal: 'Use my responsive layout and JavaScript skills to accurately build an interactive FAQ accordion card as per the design specs.',
@@ -264,7 +264,7 @@ export const projects = [
     titleLong: 'Order summary component',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Component',
+    category: ['component'],
     stack: ['HTML', 'CSS', 'Parcel'],
     description: {
       goal: 'Use my responsive layout skills to accurately build an  order summary component as per the design specs.',
@@ -287,7 +287,7 @@ export const projects = [
     titleLong: 'NFT preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Component',
+    category: ['component'],
     stack: ['HTML', 'CSS'],
     description: {
       goal: 'Use my layout skills to accurately build an NFT preview card component as per the design specs.',
@@ -312,7 +312,7 @@ export const projects = [
     titleLong: 'QR code component',
     subtitle: '',
     client: 'Frontend Mentor',
-    category: 'Component',
+    category: ['component'],
     stack: ['HTML', 'CSS'],
     description: {
       goal: 'Use my layout skills to accurately build a QR code component as per the design specs.',
