@@ -384,7 +384,7 @@ export const projects = [
     subtitle: '',
     client: 'Darrick Fauvel',
     category: ['react'],
-    stack: ['HTML', 'Sass', 'React', 'JSON', 'Vite'],
+    stack: ['HTML', 'Sass', 'CSS Open Props', 'React', 'JSON', 'Vite'],
     description: {
       goal: 'Create an interactive portfolio displaying some of my work.',
       inspiration: '',
