@@ -380,7 +380,7 @@ export const projects = [
   {
     id: 15,
     title: 'darrickfauvel.com',
-    titleLong: '',
+    titleLong: 'darrickfauvel.com',
     subtitle: '',
     client: 'Darrick Fauvel',
     category: ['react'],
