@@ -18,7 +18,7 @@ const About = () => {
               Work With Me
             </a>
             <a href='#portfolio' className='hero-button hero-button--projects'>
-              See Some of My Work
+              See My Work
             </a>
           </div>
         </div>
