@@ -376,6 +376,29 @@ export const projects = [
     repoUrl:
       'https://github.com/DarrickFauvel/scrim02-random-password-generator-js',
     isFeatured: false
+  },
+  {
+    id: 15,
+    title: 'darrickfauvel.com',
+    titleLong: '',
+    subtitle: '',
+    client: 'Darrick Fauvel',
+    category: ['react'],
+    stack: ['HTML', 'Sass', 'React', 'JSON', 'Vite'],
+    description: {
+      goal: 'Create an interactive portfolio displaying some of my work.',
+      inspiration: '',
+      challenge:
+        'I had a number of projects that needed to be featured in their own categories.',
+      solution: 'I setup a JSON data file containing all of my project info.',
+      future: 'I will be putting the data into a database API.'
+    },
+    image:
+      'https://raw.githubusercontent.com/DarrickFauvel/www-v1-r2/949d33ce3c3e0495b3f2f31043bb71bcc8604b45/screenshot.png',
+    solutionUrl: '',
+    liveUrl: 'https://darrickfauvel.com/',
+    repoUrl: 'https://github.com/DarrickFauvel/www-v1-r2',
+    isFeatured: true
   }
 ]
 
