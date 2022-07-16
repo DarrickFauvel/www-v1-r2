@@ -20,13 +20,13 @@ export const tabs = [
     category: 'section',
     description: 'Sections for use in a web page'
   },
-  {
-    id: 4,
-    title: 'Landings',
-    subtitle: 'Landing Pages',
-    category: 'landing',
-    description: 'Landing pages'
-  },
+  // {
+  //   id: 4,
+  //   title: 'Landings',
+  //   subtitle: 'Landing Pages',
+  //   category: 'landing',
+  //   description: 'Landing pages'
+  // },
   {
     id: 5,
     title: 'JavaScript',
