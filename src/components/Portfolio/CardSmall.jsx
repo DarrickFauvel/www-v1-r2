@@ -20,6 +20,8 @@ const CardSmall = ({ project }) => {
           <h4 className='card-title'>{project.title}</h4>
         </div>
         <div className='card-image'>
+          <div className='card-image-overlay-top'></div>
+          <div className='card-image-overlay-bottom'></div>
           <img src={project.image} alt='' />
         </div>
         <div className='card-body'>
