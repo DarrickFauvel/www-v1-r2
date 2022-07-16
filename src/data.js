@@ -94,26 +94,25 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Single price grid',
-    titleLong: 'Single price grid component',
+    title: 'Order summary',
+    titleLong: 'Order summary component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: ['component'],
-    stack: ['HTML', 'Sass', 'CSS Grid', 'Vite'],
+    stack: ['HTML', 'CSS', 'Parcel'],
     description: {
-      goal: 'Use my responsive layout skills to accurately build a single price grid component as per the design specs.',
+      goal: 'Use my responsive layout skills to accurately build an  order summary component as per the design specs.',
       inspiration: '',
       challenge: '',
-      solution: 'Structured this component using CSS grid.',
-      future: ''
+      solution: '',
+      future: 'Possibly use some animation effects.'
     },
     image:
-      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/sxlu3lktae5wsgt9sv4g.jpg',
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/r4uw3xedzy1j6dn95dhe.jpg',
     solutionUrl:
-      'https://www.frontendmentor.io/solutions/single-price-grid-component-html-sass-grid-and-vite-bPAyz8cJe',
-    liveUrl: 'https://fem09-single-price-grid-component-drrck.netlify.app/',
-    repoUrl:
-      'https://github.com/DarrickFauvel/fem09-single-price-grid-component',
+      'https://www.frontendmentor.io/solutions/order-summary-component-html-and-css-tcdb19Xqt',
+    liveUrl: 'https://fem03-order-summary-component-drrck.netlify.app/',
+    repoUrl: 'https://github.com/DarrickFauvel/fem03-order-summary-component',
     isFeatured: false
   },
   {
@@ -165,27 +164,25 @@ export const projects = [
   },
   {
     id: 6,
-    title: 'Stats preview card',
-    titleLong: 'Stats preview card component',
+    title: 'QR code',
+    titleLong: 'QR code component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: ['component'],
-    stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
+    stack: ['HTML', 'CSS'],
     description: {
-      goal: 'Use my responsive layout skills to accurately build a stats preview card component as per the design specs.',
+      goal: 'Use my layout skills to accurately build a QR code component as per the design specs.',
       inspiration: '',
-      challenge: 'The supplied image was only grayscale.',
-      solution:
-        "I applied the CSS property mix-blend-mode to get the exact results per the design. NOTE: My personal method has been cited in the FEM community many times, as many others' solutions do not match the design.",
-      future: 'Possibly use some subtle animation effects.'
+      challenge: '',
+      solution: '',
+      future: 'Possibly use some animation effects.'
     },
     image:
-      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/foygh516ohxsitr4z2ll.jpg',
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/audiapygpyulsggojfwv.jpg',
     solutionUrl:
-      'https://www.frontendmentor.io/solutions/stats-preview-card-component-html-and-sass-rDQsqj-37',
-    liveUrl: 'https://fem07-stats-preview-card-component-drrck.netlify.app/',
-    repoUrl:
-      'https://github.com/DarrickFauvel/fem07-stats-preview-card-component',
+      'https://www.frontendmentor.io/solutions/qr-code-component-html-css-and-figma-dkiZ-xoL4',
+    liveUrl: 'https://fem01-qr-code-component-drrck.netlify.app/',
+    repoUrl: 'https://github.com/DarrickFauvel/fem01-qr-code-component',
     isFeatured: false
   },
   {
@@ -211,78 +208,9 @@ export const projects = [
     repoUrl: 'https://github.com/DarrickFauvel/fem06-time-tracking-dashboard',
     isFeatured: true
   },
+
   {
     id: 8,
-    title: '3 column preview card',
-    titleLong: '3 column preview card component',
-    subtitle: '',
-    client: 'Frontend Mentor',
-    category: ['component'],
-    stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
-    description: {
-      goal: 'Use my responsive layout skills to accurately build a 3 column preview card component as per the design specs.',
-      inspiration: '',
-      challenge: '',
-      solution: '',
-      future: 'Possibly use some subtle animation effects.'
-    },
-    image:
-      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/zfcpxhf3ghumw5xwk8ov.jpg',
-    solutionUrl:
-      'https://www.frontendmentor.io/solutions/3-column-preview-card-component-htmlsassparcel-xwNRbfDmU',
-    liveUrl: 'https://fem05-3-column-preview-card-component-drrck.netlify.app/',
-    repoUrl:
-      'https://github.com/DarrickFauvel/fem05-3-column-preview-card-component',
-    isFeatured: false
-  },
-  {
-    id: 9,
-    title: 'FAQ accordion card',
-    titleLong: 'FAQ accordion card component',
-    subtitle: '',
-    client: 'Frontend Mentor',
-    category: ['component', 'javascript'],
-    stack: ['HTML', 'CSS', 'JavaScript', 'Parcel'],
-    description: {
-      goal: 'Use my responsive layout and JavaScript skills to accurately build an interactive FAQ accordion card as per the design specs.',
-      inspiration: '',
-      challenge: 'Responsively align and layer multiple images.',
-      solution: 'It was tricky, but I got the results per the design.',
-      future: 'Possibly use some animation effects.'
-    },
-    image:
-      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/xvugv8kclktcrspoxjga.jpg',
-    solutionUrl:
-      'https://www.frontendmentor.io/solutions/faq-accordion-card-htmlcssjs-rzpYTV0Ig',
-    liveUrl: 'https://fem04-faq-accordion-card-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem04-faq-accordion-card',
-    isFeatured: true
-  },
-  {
-    id: 10,
-    title: 'Order summary',
-    titleLong: 'Order summary component',
-    subtitle: '',
-    client: 'Frontend Mentor',
-    category: ['component'],
-    stack: ['HTML', 'CSS', 'Parcel'],
-    description: {
-      goal: 'Use my responsive layout skills to accurately build an  order summary component as per the design specs.',
-      inspiration: '',
-      challenge: '',
-      solution: '',
-      future: 'Possibly use some animation effects.'
-    },
-    image:
-      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/r4uw3xedzy1j6dn95dhe.jpg',
-    solutionUrl:
-      'https://www.frontendmentor.io/solutions/order-summary-component-html-and-css-tcdb19Xqt',
-    liveUrl: 'https://fem03-order-summary-component-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem03-order-summary-component',
-    isFeatured: false
-  },
-  {
-    id: 11,
     title: 'NFT preview card',
     titleLong: 'NFT preview card component',
     subtitle: '',
@@ -307,28 +235,103 @@ export const projects = [
     isFeatured: false
   },
   {
-    id: 12,
-    title: 'QR code',
-    titleLong: 'QR code component',
+    id: 9,
+    title: '3 column preview card',
+    titleLong: '3 column preview card component',
     subtitle: '',
     client: 'Frontend Mentor',
     category: ['component'],
-    stack: ['HTML', 'CSS'],
+    stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
     description: {
-      goal: 'Use my layout skills to accurately build a QR code component as per the design specs.',
+      goal: 'Use my responsive layout skills to accurately build a 3 column preview card component as per the design specs.',
       inspiration: '',
       challenge: '',
       solution: '',
+      future: 'Possibly use some subtle animation effects.'
+    },
+    image:
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/zfcpxhf3ghumw5xwk8ov.jpg',
+    solutionUrl:
+      'https://www.frontendmentor.io/solutions/3-column-preview-card-component-htmlsassparcel-xwNRbfDmU',
+    liveUrl: 'https://fem05-3-column-preview-card-component-drrck.netlify.app/',
+    repoUrl:
+      'https://github.com/DarrickFauvel/fem05-3-column-preview-card-component',
+    isFeatured: false
+  },
+  {
+    id: 10,
+    title: 'Single price grid',
+    titleLong: 'Single price grid component',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: ['component'],
+    stack: ['HTML', 'Sass', 'CSS Grid', 'Vite'],
+    description: {
+      goal: 'Use my responsive layout skills to accurately build a single price grid component as per the design specs.',
+      inspiration: '',
+      challenge: '',
+      solution: 'Structured this component using CSS grid.',
+      future: ''
+    },
+    image:
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/sxlu3lktae5wsgt9sv4g.jpg',
+    solutionUrl:
+      'https://www.frontendmentor.io/solutions/single-price-grid-component-html-sass-grid-and-vite-bPAyz8cJe',
+    liveUrl: 'https://fem09-single-price-grid-component-drrck.netlify.app/',
+    repoUrl:
+      'https://github.com/DarrickFauvel/fem09-single-price-grid-component',
+    isFeatured: false
+  },
+
+  {
+    id: 11,
+    title: 'FAQ accordion card',
+    titleLong: 'FAQ accordion card component',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: ['component', 'javascript'],
+    stack: ['HTML', 'CSS', 'JavaScript', 'Parcel'],
+    description: {
+      goal: 'Use my responsive layout and JavaScript skills to accurately build an interactive FAQ accordion card as per the design specs.',
+      inspiration: '',
+      challenge: 'Responsively align and layer multiple images.',
+      solution: 'It was tricky, but I got the results per the design.',
       future: 'Possibly use some animation effects.'
     },
     image:
-      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/audiapygpyulsggojfwv.jpg',
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/xvugv8kclktcrspoxjga.jpg',
     solutionUrl:
-      'https://www.frontendmentor.io/solutions/qr-code-component-html-css-and-figma-dkiZ-xoL4',
-    liveUrl: 'https://fem01-qr-code-component-drrck.netlify.app/',
-    repoUrl: 'https://github.com/DarrickFauvel/fem01-qr-code-component',
+      'https://www.frontendmentor.io/solutions/faq-accordion-card-htmlcssjs-rzpYTV0Ig',
+    liveUrl: 'https://fem04-faq-accordion-card-drrck.netlify.app/',
+    repoUrl: 'https://github.com/DarrickFauvel/fem04-faq-accordion-card',
+    isFeatured: true
+  },
+  {
+    id: 12,
+    title: 'Stats preview card',
+    titleLong: 'Stats preview card component',
+    subtitle: '',
+    client: 'Frontend Mentor',
+    category: ['component'],
+    stack: ['HTML', 'CSS', 'Sass', 'Parcel'],
+    description: {
+      goal: 'Use my responsive layout skills to accurately build a stats preview card component as per the design specs.',
+      inspiration: '',
+      challenge: 'The supplied image was only grayscale.',
+      solution:
+        "I applied the CSS property mix-blend-mode to get the exact results per the design. NOTE: My personal method has been cited in the FEM community many times, as many others' solutions do not match the design.",
+      future: 'Possibly use some subtle animation effects.'
+    },
+    image:
+      'https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Screenshots/foygh516ohxsitr4z2ll.jpg',
+    solutionUrl:
+      'https://www.frontendmentor.io/solutions/stats-preview-card-component-html-and-sass-rDQsqj-37',
+    liveUrl: 'https://fem07-stats-preview-card-component-drrck.netlify.app/',
+    repoUrl:
+      'https://github.com/DarrickFauvel/fem07-stats-preview-card-component',
     isFeatured: false
   },
+
   {
     id: 13,
     title: 'Color Scheme Generator',
