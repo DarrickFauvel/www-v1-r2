@@ -3,6 +3,7 @@ import Card from './CardSmall'
 
 const Projects = ({ projects, activeTab, tabs }) => {
   const [selectedProject, setSelectedProject] = useState(null)
+  const projectsInReverseOrder = projects.slice(0).reverse()
 
   const cardsTitle = tabs.find((tab) => {
     return tab.title.toLowerCase() === activeTab.toLowerCase()
@@ -12,7 +13,7 @@ const Projects = ({ projects, activeTab, tabs }) => {
     <>
       <h3 className='tab-content--title'>{cardsTitle.subtitle}</h3>
       <div className='cards'>
-        {projects.map((project) => {
+        {projectsInReverseOrder.map((project) => {
           return <Card project={project} key={project.id} />
         })}
       </div>
