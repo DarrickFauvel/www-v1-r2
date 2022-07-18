@@ -1,5 +1,23 @@
+import { useState, useEffect } from 'react'
+import { supabase } from '../../supabaseClient'
+
 const Tabs = ({ tabs, activeTab, handleTabClick }) => {
-  const renderTabs = tabs.map((tab) => {
+  const [categories, setCategories] = useState([])
+
+  const loadCategories = async () => {
+    let { data: categories, error } = await supabase
+      .from('categories')
+      .select('*')
+      .order('id')
+
+    setCategories(categories)
+  }
+
+  useEffect(() => {
+    loadCategories()
+  }, [])
+
+  const renderTabs = categories.map((tab) => {
     return (
       <button
         className={tab.title === activeTab ? 'tab active' : 'tab'}
